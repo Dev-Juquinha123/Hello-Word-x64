@@ -1,0 +1,6 @@
+ld -o Hello_word.exe Hello_word.obj "C:\msys64\ucrt64\lib\libkernel32.a" "C:\msys64\ucrt64\lib\libmsvcrt.a"
+
+
+nasm -f win64 -o Hello_word.obj Hello_word.asm
+
+NASM_LD.bat Hello_word.asm
